@@ -1,4 +1,4 @@
-# DTU CS303 Machine Learning Lab (Sem 3 - COE)
+# DTU CS303 Machine Learning Lab (Sem 5 - COE)
 
 Structured repository for Machine Learning Lab experiments (CS303). Each experiment has:
 - Objective
@@ -6,15 +6,16 @@ Structured repository for Machine Learning Lab experiments (CS303). Each experim
 - Dataset (if applicable)
 - Jupyter Notebook link
 
-## Repository Layout (suggested)
+## Repository Layout
 
 ```
 .
-├── 01_EDA/
-├── 02_linear_regression/
-├── 03_logistic_regression/
-├── 04_naive_bayes/
-├── 05_decision_trees/
+├── exp 1/                    # Data Preprocessing & EDA
+├── exp 2/                    # Linear Regression
+├── exp 3 and 4/              # Logistic Regression & Naive Bayes
+├── exp 5/                    # Decision Trees
+├── exp 6/                    # K-Nearest Neighbors (KNN)
+├── ml_lab/                   # Virtual environment
 └── README.md
 ```
 
@@ -36,11 +37,13 @@ Structured repository for Machine Learning Lab experiments (CS303). Each experim
     Gaussian / Multinomial NB, text classification intro.  
     [Notebook](exp 3 and 4/spam classification.ipynb)
 
-5. Decision Trees 
+5. Decision Trees  
+    Classification & Regression Trees, Gini/Entropy, pruning.  
     [Notebook](exp 5/Decision tree.ipynb)
 
-
-## Contribution
+6. K-Nearest Neighbors (KNN)  
+    Distance-based classification, hyperparameter tuning (k), from-scratch implementation.  
+    [Notebook](exp 6/KNN.ipynb) 
 
 - Keep notebooks clean (restart & run all before commit).
 - Add a short README.md inside any new experiment folder.
